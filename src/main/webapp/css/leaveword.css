@@ -1,0 +1,37 @@
+.dropdown .dd {
+    display: none;
+}
+
+form textarea {
+    display: inline-block;
+    outline: none;
+    margin: 50px 32% 20px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 800;
+    border: 2px solid #c81623;
+}
+
+form div input {
+    display: inline-block;
+    width: 70px;
+    height: 32px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #e4e4e4;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+form div {
+    display: inline-block;
+    margin-left: 47%;
+    margin-bottom: 40px;
+}
+
+#t {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border: 2px solid #c81623;
+}

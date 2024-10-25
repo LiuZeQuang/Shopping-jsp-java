@@ -1,0 +1,51 @@
+/* 主体 */
+body {
+    /*height: 728px;*/
+    background: url(../images/manger.png) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.reg_form {
+    width: 450px;
+    height: 250px;
+    margin: 250px auto 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.reg_form ul li {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    color: white;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    /* background-color: #c81623; */
+    background-color: black;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid white;
+    margin: 10px 0 0 80px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    margin-bottom: -10px;
+}

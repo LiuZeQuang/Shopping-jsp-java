@@ -1,0 +1,274 @@
+/* 首页专有的模块 main */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.main .focus img {
+    width: 721px;
+    height: 455px;
+}
+
+.main .newsflash {
+    margin-top: 1px;
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.main .newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.main .newsflash .news .news_hd {
+    height: 33px;
+    line-height: 31px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.main .newsflash .news .news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.main .newsflash .news .news_hd .more {
+    float: right;
+}
+
+.main .newsflash .news .news_hd .more::after {
+    font-family: icomoon;
+    content: '\e920';
+    padding-left: 5px;
+}
+
+.main .newsflash .news .news_bd {
+    padding: 5px 15px 0;
+}
+
+.main .newsflash .news .news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 超出box处理 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main .newsflash .bargain {
+    margin-top: 10px;
+}
+
+.main .newsflash .bargain ul li {
+    height: 94px;
+    width: 250px;
+}
+
+.main .newsflash .bargain ul li img {
+    height: 92px;
+    width: 100%;
+}
+
+/* 推荐模块main */
+.recom {
+    height: 163px;
+    width: 1202px;
+    background-color: pink;
+    margin-top: 12px;
+}
+
+.recom .recom_hd {
+    float: left;
+}
+
+.recom .recom_bd ul li {
+    float: left;
+    height: 163px;
+}
+
+.recom .recom_bd ul li img {
+    height: 100%;
+}
+
+/* 电梯模块 */
+.floor .w {
+    margin-top: 30px;
+}
+
+.shuiguo {
+    margin-bottom: 30px;
+}
+
+.floor .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .box_hd h2 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.floor .box_hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.floor .box_hd .tab_list ul li {
+    float: left;
+}
+
+.floor .box_hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .box_bd {
+    height: 460px;
+}
+
+.floor .box_bd ul li {
+    float: left;
+    width: 240px;
+    height: 229px;
+    border: 5px solid transparent;
+}
+
+.floor .box_bd ul li:hover {
+    border: 5px solid #c81623;
+}
+
+.floor .box_bd ul li img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.floor .box_bd ul li h4 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 20px;
+    color: black;
+}
+
+.floor .box_bd ul li h3 {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+
+.floor .box_bd ul li h1 {
+    margin: 0 auto;
+    /* width: 110px; */
+    font-size: 25px;
+    text-align: center;
+    color: #e4e4e4;
+    background-color: #c81623;
+}
+
+/*返回顶部*/
+.slider-bar {
+    position: absolute;
+    left: 50%;
+    top: 1400px;
+    margin-left: 600px;
+    width: 40px;
+    height: 45px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background-color: #c81623;
+}
+
+/*二维码*/
+.erweima {
+    position: absolute;
+    display: none;
+    left: 216px;
+    top: 31px;
+    margin-left: 1000px;
+    padding: 30px;
+    width: 180px;
+    height: 230px;
+    background-color: #e0dae2;
+}
+
+.erweima img {
+    width: 120px;
+    height: 120px;
+}
+
+/*底部*/
+.erweima h4 {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}

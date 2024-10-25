@@ -1,0 +1,18 @@
+.dropdown .dd {
+    display: none;
+}
+
+.text {
+    width: 800px;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 50px auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    color: #c81623;
+    margin-bottom: 30px;
+}
